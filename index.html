@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/responsividade.css">
+</head>
+<body>
+    <div class="container_pai">
+        <header class="conatiner_header">
+            <div class="navbar">
+                <div id="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1004 530.58"><title>ifood-43</title><path d="M-4,529.31H72.41l42.46-211.2H38.45ZM42.66,292.92h76.73L132,229.73H55.3Zm59.47,295.82h76.42l46.69-228.18h57.31L291,318.11H234.79l2.13-9.55c3.18-18,9.55-38.21,38.2-38.21,17,0,32.91,1.06,48.82,8.49l8.5-44.57a167.8,167.8,0,0,0-55.19-9.56c-61.56,0-104,36.09-119.93,93.4H130.79l-8.49,42.45h26.53Z" transform="translate(4 -224.71)" fill="#ea1d2c"/><path d="M344.11,533.56c90.21,0,152.83-81.73,152.83-148.59,0-49.88-45.64-71.11-90.21-71.11C308,313.86,253.9,402,253.9,462.45c0,49.88,46.7,71.11,90.21,71.11m242,0c90.21,0,152.83-81.73,152.83-148.59,0-49.88-46.7-71.11-91.28-71.11-98.7,0-152.82,88.09-152.82,148.59,0,49.88,47.76,71.11,91.27,71.11m277-4.25h75.35L1000,229H923.59l-18.05,89.15-31.84-3.18c-74.29,0-142.21,95.51-142.21,163.44,0,27.59,18,55.19,48.82,55.19,43.51,0,74.29-21.23,87-42.46h4.24ZM627.48,687.45a295,295,0,0,1-212.26,66.86c-100.83-6.37-173-83.85-185.73-165.57h4.24c23.35,51,79.6,98.71,148.59,106.13,70,8.49,153.89-23.34,199.52-66.86L530.9,588.74H684.79l-34,163.45-22.29-63.68Z" transform="translate(4 -224.71)" fill="#ea1d2c"/></svg>
+                </div>
+                <nav>
+                    <a href="#">Entregador</a>
+                    <a href="#">Restaurante e Mercado</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">iFood Card</a>
+                </nav>
+                <button class="btn_principal btn1">criar conta</button>
+                <button class="btn_principal btn2">Entrar</button>
+                
+            </div>
+        </header>
+
+        <div class="container_inicio">
+            <div class="inicio">
+                <p class="big_phrase">Tudo pra facilitar seu dia a dia</p>
+                <p class="phrase">O que você precisa está aqui. Peça e receba onde estiver.</p>
+                <form action="">
+                    <div class="busca">
+                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg" class="landing-v2-address-search__pin-icon"><path d="M8.83483 17.2742C8.27983 17.2742 7.77733 16.9496 7.52233 16.4192L4.30483 9.6346C3.51733 7.96418 3.55483 5.99293 4.40983 4.34626C5.21983 2.78668 6.62983 1.78918 8.26483 1.61501C8.63233 1.57543 9.02233 1.57543 9.38983 1.61501C11.0248 1.78918 12.4273 2.78668 13.2448 4.34626C14.0998 5.99293 14.1448 7.96418 13.3498 9.6346C13.2073 9.92752 12.8773 10.0463 12.5923 9.90376C12.3148 9.75335 12.2023 9.3971 12.3373 9.10418C12.9598 7.7821 12.9298 6.22251 12.2473 4.91626C11.6398 3.70501 10.5523 2.92918 9.28483 2.7946C8.99233 2.76293 8.68483 2.76293 8.38483 2.7946C7.12483 2.92918 6.03733 3.70501 5.40733 4.91626C4.73233 6.22251 4.69483 7.7821 5.32483 9.10418L8.54233 15.8888C8.62483 16.0629 8.78233 16.0867 8.84233 16.0867C8.90233 16.0867 9.05983 16.0708 9.14233 15.8888L10.7548 12.4767C10.8973 12.1838 11.2348 12.065 11.5123 12.2075C11.7898 12.3579 11.9023 12.7142 11.7673 13.0071L10.1548 16.4192C9.89983 16.9417 9.39733 17.2742 8.83483 17.2742Z" fill="currentColor"></path><path d="M8.83508 9.55546C7.56008 9.55546 6.51758 8.45505 6.51758 7.10921C6.51758 5.75546 7.56008 4.66296 8.83508 4.66296C10.1101 4.66296 11.1526 5.76338 11.1526 7.10921C11.1601 8.46296 10.1176 9.55546 8.83508 9.55546ZM8.83508 5.85046C8.17508 5.85046 7.64258 6.41255 7.64258 7.10921C7.64258 7.80588 8.17508 8.36796 8.83508 8.36796C9.49508 8.36796 10.0276 7.80588 10.0276 7.10921C10.0351 6.41255 9.49508 5.85046 8.83508 5.85046Z" fill="currentColor"></path></svg>
+                        <input type="text" name="" id="" placeholder="Endereço de entrega e número">
+                    </div>
+                    <button>Buscar</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="container_catalogo">
+            <div class="tamanho_catalogo">
+                <div class="catalogo">
+                    <div class="container_hamburgue">
+                        <div class="hamburgue">
+                            <div class="categoria">
+                                <p>Restaurante</p>
+                                <figure class="foto_hamburgue">
+                                    <img src="img/hambúrguer.webp" alt="humburguer">
+                                </figure>
+                                <div class="mais_opcao">
+                                    <span>Ver opções</span>
+                                    <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(255,255,255)"/></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container_mercado">
+                        <div class="mercado">
+                            <div class="categoria">
+                                <p>Mercado</p>
+                                <figure class="foto_mercado">
+                                    <img src="img/carrinho_de_mercado.webp" alt="humburguer">
+                                </figure>
+                                <div class="mais_opcao2">
+                                    <span>Buscar lojas</span>
+                                    <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(255,255,255)"/></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_opcao">
+                <div class="bebida organiza">
+                    <figure>
+                        <img class="beb"src="img/cerveja.webp" alt="bebida">
+                    </figure>
+                    <p>bebidas
+                        <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(234, 29, 44)"/></svg></span>
+                    </p>
+                </div>
+                
+                <div class="farmacia organiza">
+                    <figure>
+                        <img class="beb"src="img/farmacia.webp" alt="Farmácia">
+                    </figure>
+                    <p>Farmácia
+                        <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(234, 29, 44)"/></svg></span>
+                    </p>
+                </div>
+
+                <div class="Express organiza">
+                    <figure>
+                        <img class="beb"src="img/celular.webp" alt="comida de cachorro">
+                    </figure>
+                    <p>Express
+                        <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(234, 29, 44)"/></svg></span>
+                    </p>
+                </div>
+
+                <div class="Pet_Shop organiza">
+                    <figure>
+                        <img class="beb"src="img/petshop.webp" alt="bebida">
+                    </figure>
+                    <p>Pet Shop
+                        <span ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z" fill="	rgb(234, 29, 44)"/></svg></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <main class="container_principal">
+            <div class="principal">
+                <div class="best_restaurant">
+                    <h2 class="h2">Os melhores restaurante</h2>
+                    <div class="container_carrosel">
+                        <div class="carrosel">                           
+
+                            <!-- Outback Steakhouse -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/outback.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Outback Steakhouse</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z" fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Mcdonald's -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/McDonalds.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Mcdonald's</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Coco Bumbu -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/CocuBambu.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Coco Bumbu</h3>
+                                        <p>Frutos Do Mar</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--China in Box-->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/ChinaBox.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>China in Box</h3>
+                                        <p>Chinesa</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Habib's-->
+                            <div class="carrosel_slide habibis">
+                                <a class="link" href="#">
+                                    <img src="img/habibis.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Habib's</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Outback Steakhouse -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/outback.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Outback Steakhouse</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z" fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Mcdonald's -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/McDonalds.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Mcdonald's</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Coco Bumbu -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/CocuBambu.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Coco Bumbu</h3>
+                                        <p>Frutos Do Mar</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--China in Box-->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/ChinaBox.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>China in Box</h3>
+                                        <p>Chinesa</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Habib's-->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/habibis.webp" alt="Outback">
+                                    <div class="link_argumento">
+                                        <h3>Habib's</h3>
+                                        <p>Lanches</p>
+                                    </div>
+                                    <div class="logozinho">
+                                        <span><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27379 0.633281C6.63354 -0.211093 5.36417 -0.211094 4.72392 0.63328L4.11112 1.44146L3.10633 1.30331C2.05655 1.15897 1.15897 2.05655 1.30331 3.10633L1.44146 4.11112L0.633281 4.72392C-0.211093 5.36417 -0.211094 6.63354 0.63328 7.27379L1.44146 7.88659L1.30331 8.89137C1.15897 9.94116 2.05655 10.8387 3.10633 10.6944L4.11112 10.5562L4.72392 11.3644C5.36417 12.2088 6.63354 12.2088 7.27379 11.3644L7.88659 10.5562L8.89137 10.6944C9.94116 10.8387 10.8387 9.94116 10.6944 8.89138L10.5562 7.88659L11.3644 7.27379C12.2088 6.63354 12.2088 5.36417 11.3644 4.72392L10.5562 4.11112L10.6944 3.10633C10.8387 2.05655 9.94116 1.15897 8.89138 1.30331L7.88659 1.44146L7.27379 0.633281ZM3.92199 5.89974C4.12291 5.6966 4.44867 5.6966 4.64959 5.89974L5.2897 6.5469L7.32851 4.19116C7.51562 3.97497 7.84066 3.95306 8.0545 4.14223C8.26834 4.3314 8.29001 4.66002 8.1029 4.87621L5.33982 8.0688L3.92199 6.63535C3.72107 6.43221 3.72107 6.10287 3.92199 5.89974Z"fill="rgb(239, 87, 83)"></path></svg></span>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="controle">
+                            <button class="left">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z" fill="rgb(62, 62, 62")/></svg></span>
+                            </button>
+                            <button class="rigth">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z " fill="rgb(62, 62, 62")/></svg></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- catalogo Do dia -->
+                    <div class="container_dia">
+                        <div class="carrosel_dia">
+
+                            <div class="dia">
+                                <div class="prato_dia">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/bannerAlmoço.webp" alt="prato de comida">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="prato_dia">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/banner70.webp" alt="prato de comida">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="prato_dia">
+                                    <a href="#">
+                                        <figure>
+                                            <img src="img/restaurante.webp" alt="prato de comida">
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="controles">
+                                <button class="left3">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z" fill="rgb(62, 62, 62")/></svg></span>
+                                </button>
+                                <button class="rigth3">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z " fill="rgb(62, 62, 62")/></svg></span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <h2 class="h2">Os melhores mercados</h2>
+                    <div class="container_carrosel">
+                        <div class="carrosel2">                           
+
+                            <!-- Eataly -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/eataly.webp" alt="Eataly">
+                                    <div class="link_argumento">
+                                        <h3>Eataly</h3>
+                                    </div>  
+                                </a>
+                            </div>
+                            <!--Dia Supermercado -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/DiaSupermercado.webp" alt="Dia Supermercado">
+                                    <div class="link_argumento">
+                                        <h3>Dia Supermercado</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--Big -->
+                            <div class="carrosel_slide">
+                                <a class="link" href="#">
+                                    <img src="img/big.webp" alt="Big">
+                                    <div class="link_argumento">
+                                        <h3>Big</h3>
+                                    </div>
+                                </a>
+                            </div>
+                             <!-- Eataly -->
+                             <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/eataly.webp" alt="Eataly">
+                                    <div class="link_argumento">
+                                        <h3>Eataly</h3>
+                                    </div>  
+                                </a>
+                            </div>
+                            <!--Dia Supermercado -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/DiaSupermercado.webp" alt="Dia Supermercado">
+                                    <div class="link_argumento">
+                                        <h3>Dia Supermercado</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--Big -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/big.webp" alt="Big">
+                                    <div class="link_argumento">
+                                        <h3>Big</h3>
+                                    </div>
+                                </a>
+                            </div>
+                             <!-- Eataly -->
+                             <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/eataly.webp" alt="Eataly">
+                                    <div class="link_argumento">
+                                        <h3>Eataly</h3>
+                                    </div>  
+                                </a>
+                            </div>
+                            <!--Dia Supermercado -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/DiaSupermercado.webp" alt="Dia Supermercado">
+                                    <div class="link_argumento">
+                                        <h3>Dia Supermercado</h3>
+                                    </div>
+                                </a>
+                            </div>
+                             <!--Big -->
+                            <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/big.webp" alt="Big">
+                                    <div class="link_argumento">
+                                        <h3>Big</h3>
+                                    </div>
+                                </a>
+                            </div>
+                             <!-- Eataly -->
+                             <div class="carrosel_slide none">
+                                <a class="link" href="#">
+                                    <img src="img/eataly.webp" alt="Eataly">
+                                    <div class="link_argumento">
+                                        <h3>Eataly</h3>
+                                    </div>  
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="controle">
+                            <button class="left2">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z" fill="rgb(62, 62, 62")/></svg></span>
+                            </button>
+                            <button class="rigth2">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z " fill="rgb(62, 62, 62")/></svg></span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="container_info">
+                        <div class="mulherBeijo">
+                            <figure>
+                                <img src="img/mulherBeijo.svg" alt="Mulher Beijo">
+                            </figure>
+                            <div class="mais_info">
+                                <p class="titulo">Quer fazer entregas pelo iFood?</p>
+                                <p class="sub">Faça agora o seu cadastro e comece o quanto antes.</p>
+                                <a href="#">Saiba mais</a>
+                            </div>
+                        </div>
+                        <div class="casaMoeda">
+                            <figure>
+                                <img src="img/CasaDinheiro.svg" alt="Casa Moeda">
+                            </figure>
+                            <div class="mais_info">
+                                <p class="titulo">A sua fome de crescer ta no iFood</p>
+                                <p class="sub">Cadastre seu restaurante ou o seu mercado.</p>
+                                <a href="#">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- banner -->
+                    <div class="container_banner">
+                        <h2>Você tem fome do que?</h2>
+                        <img src="img/pessoas.webp" alt="varias pessoas">
+                        <div class="info_banner">
+                            <p>Descubra como é ser um FoodLover e faça parte da nossa revolução!</p>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <!-- link -->
+                    <a class="banners" href="#">
+                        <picture>
+                            <source media="(max-width: 960px )" srcset="img/banner_menor.webp" type="image/webp">
+                            <img src="img/banner_maior.webp" alt="homem com cartão">
+                        </picture>
+                    </a>
+
+                    <footer class="container_footer">
+                        <!-- lista cidades -->
+                        <div class="cidades">
+                            <h2>Explore por cidades</h2>
+                            <a href="#">Ver todas</a>
+                            <ul class="lista_footer">
+                                <li class="item_lista">
+                                    <a href="#">Belo Horizonte</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Brasília</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Campinas</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Curitiba</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Goiâna</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Guarulhos</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">João Pessoa</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Natal</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Niterói</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Porto Alegre</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Ribeirão Preto</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Rio de Janeiro</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Salvador</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Santo André</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">Santos</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">São Bernado do Campo</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">São Caetano do Sul</a>
+                                </li>
+                                <li class="item_lista">
+                                    <a href="#">São Paulo</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- lista redes sociais -->
+                        <div class="redes_sociais">
+                            <!-- Ifood -->
+                            <div class="footer_column">
+                                <h3>iFood</h3>
+                                <ul class="sociais">
+                                    <li class="item_lista">
+                                        <a href="#">Site Institucional</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">Fale conosco</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">Carreiras</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">iFood Colômbia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Descubra -->
+                            <div class="footer_column">
+                                <h3>Descubra</h3>
+                                <ul class="sociais">
+                                    <li class="item_lista">
+                                        <a href="#">Cadastre seu Restaurante ou Mercado</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">iFood Shop</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">iFood Crad</a>
+                                    </li>
+                                    <li class="item_lista">
+                                        <a href="#">Blog iFood Empresas</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- redes sociais -->
+                            <div class="footer_column redes">
+                                <h3>Social</h3>
+                                <ul class="social">
+                                    <li class="redes">
+                                        <a href="#">
+                                            <svg class="face" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" fill="rgb(113, 113, 113)"/></svg>
+                                        </a>
+                                    </li>
+                                    <li class="redes">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"  fill="rgb(113, 113, 113)"/></svg>
+                                        </a>
+                                    </li>
+                                    <li class="redes">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"  fill="rgb(113, 113, 113)"/></svg>
+                                        </a>
+                                    </li>
+                                    <li class="redes">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="rgb(113, 113, 113)"/></svg>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="container_final">
+                            <div class="agencia">
+                                <a href="#">
+                                    <svg viewbox ="0 0 49 43" fill="rgb(234 29 44)" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.34 21.34c8.49 0 14.37-7.71 14.37-14 0-4.58-4.35-6.59-8.49-6.59-9.3 0-14.37 8.3-14.37 14 0 4.59 4.4 6.6 8.5 6.6zM34 21.34c8.49 0 14.37-7.71 14.37-14 0-4.58-4.36-6.59-8.49-6.59-9.3 0-14.37 8.3-14.37 14 0 4.59 4.4 6.6 8.5 6.6M37.92 35.76c-5.25 4.45-12.27 6.74-19.9 6.26A19.2 19.2 0 0 1 .36 26.5h.46a17.83 17.83 0 0 0 14.05 9.97c6.46.71 14.37-2.2 18.71-6.34l-4.87-3.67 14.47.04-3.11 15.25-2.16-5.98z"></path>
+                                    </svg>
+                                </a>
+                                <p class="copy">© Copyright 2021 - iFood - Todos os direitos reservados iFood com Agência de Restaurantes Online S.A.</p>
+                                <p class="cnpj">CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-90</p>
+                            </div>
+                            <div class="termos">
+                                <ul>
+                                    <li><a href="">Termo e condições de uso</a></li>
+                                    <li><a href="">Código de conduta</a></li>
+                                    <li><a href="">Privacidade</a></li>
+                                    <li><a href="">Dicas de segurança</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </footer>
+                </div> 
+            </div>
+        </main>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

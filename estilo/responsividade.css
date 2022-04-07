@@ -1,0 +1,665 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 1277px ) {
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant{
+        width:100%;
+    }
+    .container_principal .principal{
+        width: 100%;
+    }
+    .container_principal .principal .carrosel,.carrosel2{
+
+    grid-template-columns: repeat(19, 226.6px);
+    grid-gap: 22px;
+    }
+    .container_principal .principal .controle .rigth,.rigth2{
+        transform: translateY(-45px) translateX(1168px) rotate(0deg);
+    }
+    .container_principal .container_dia .carrosel_dia .dia{
+        display: grid;
+        grid-template-columns: repeat(3, 31%);
+        gap:20px;
+    }
+    .container_principal .principal .best_restaurant .h2{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 1200px){
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant{
+        width:1200px;
+    }
+    .container_principal .principal .carrosel,.carrosel2{
+
+        grid-template-columns: repeat(19, 226.6px);
+        grid-gap: 45px;
+    }
+    .container_principal .principal .controle .rigth,.rigth2{
+        transform: translateY(-45px) translateX(1078px) rotate(0deg);
+    }
+    .container_principal .container_final .termos ul {
+        grid-template-columns:34% 23% 17% 30%;
+        padding-left: 3px;
+        font-size:0.9em;
+    }
+    .container_principal .principal .best_restaurant .h2{
+        padding-left: 30px;
+    }
+    
+}
+@media (max-width: 1100px){
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant,.container_info{
+        width:1100px;
+    }
+    .container_principal .principal .carrosel,.carrosel2{
+        grid-template-columns: repeat(19, 226.6px);
+        grid-gap: 38px;
+    }
+    .container_principal .principal .controle .rigth,.rigth2{
+        transform: translateY(-45px) translateX(982px) rotate(0deg);
+    }.container_principal .container_banner .info_banner {
+        width: 100%;
+        margin-right: 90px;
+    }
+    .container_principal .container_banner .info_banner p {
+        width: 100%;
+        margin-right: 90px;
+        padding-top: 30px;
+    }
+    .container_principal .container_banner img{
+        width: 100%;
+    }
+    .container_principal .container_final .termos ul {
+        grid-template-columns:2fr 1fr 1fr 1fr;
+        padding-left: 3px;
+        font-size:0.9em;
+    }
+    .container_principal .container_info .casaMoeda,
+    .container_principal .container_info .mulherBeijo{
+        width: 38%;
+    }
+    .container_principal .container_info .casaMoeda figure > img{
+        top: -130px;
+        left:30px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .titulo{
+        width: 90%;
+        top: -90px;
+        left: 10px;
+   
+    }
+    .container_principal .container_info .casaMoeda .mais_info .sub{
+        top: -70px;
+        left: 10px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info > a{
+        left: 5%;
+        top: -50px;
+    }
+    .container_principal .principal .best_restaurant .h2{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 960px){
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant,.container_info{
+        width:943px;
+    }
+    .container_pai .conatiner_header .navbar{
+        grid-template-columns: 90px 1fr 114px 0px;
+    }
+    .container_pai .conatiner_header .navbar> nav{
+        display: none;
+    }
+    .container_pai .conatiner_header .navbar .btn1{
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .container_principal .principal{
+       
+    }
+    .container_principal .principal .carrosel{
+        grid-template-columns: repeat(10 1fr);
+        display: flex;
+        width:900px;
+        height: 150px;
+        margin-bottom: 30px; 
+    }
+    .container_principal .principal .carrosel:hover{
+        overflow-y: hidden;
+    }
+    .container_principal .principal .carrosel2{
+         grid-gap: 12px;
+    }
+    .container_principal .principal .carrosel2 .carrosel_slide{
+        display: flex;
+        width: 100%;
+        height: 90px;
+    }
+    .container_principal .principal .carrosel >div.none,
+    .container_principal .principal .carrosel2 .none{
+        display: none;
+    }
+    .container_principal .principal .carrosel .carrosel_slide{
+        grid-template-columns: repeat(10 1fr);
+        display: flex;
+        width:200px;
+        height: 100px;
+    }
+    .container_principal .principal .controle,.carrosel{
+       display: none;
+    }
+    .container_principal .principal .best_restaurant .h2{
+        padding-left: 30px;
+    }
+    .container_principal .container_info{
+        display: grid;
+        grid-template-areas: 
+        'mulher mulher'
+        'casa casa';
+        width:100%;
+        height: 750px;
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+    .container_principal .container_info .mulherBeijo {
+        grid-area: mulher;
+        width: 50%;
+        height: auto;
+        padding-bottom: 20px;
+        background-position: 30px 20px;
+        background-size: 95% auto;
+        margin-top: 70px;
+        
+    }
+    .container_principal .container_info .mulherBeijo figure > img{
+        top: -10px;
+        left: 67px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .titulo{
+        width: 178%;
+        top: 0px;
+        left: 90px;
+        font-size: 1.5em;
+
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .sub{
+        width: 78%;
+        top: 20px;
+        left: 90px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info > a{
+        left: 33%;
+        top: 40px;
+    }
+
+    .container_principal .container_info .casaMoeda {
+        grid-area: casa;
+        width: 50%;
+        height: auto;
+        padding-bottom: 90px;
+        background-position: 20px 20px;
+        background-size: 95% auto;
+    }
+    .container_principal .container_info .casaMoeda figure > img{
+        top: -10px;
+        left: 67px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .titulo{
+        width: 178%;
+        top: 0px;
+        left: 90px;
+        font-size: 1.5em;
+
+    }
+    .container_principal .container_info .casaMoeda .mais_info .sub{
+        width: 68%;
+        top: 20px;
+        left: 90px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info > a{
+        left: 33%;
+        top: 40px;
+    }
+
+    .container_principal .container_final{
+        grid-template-columns: 1fr;
+    }
+    .container_principal .container_final .agencia > a {
+       padding-top: 7px;
+       margin-left: 10px; 
+       width: 40px;
+    }
+    .container_principal .container_final .termos ul {
+    display: flex;
+    flex-direction: row;
+    }
+    .container_principal .container_final .agencia .copy, 
+    .container_principal .container_final .agencia .cnpj {
+        padding-top: 8px;
+        width: 60%;
+        font-size: 0.6em;
+    }
+    .container_principal .container_footer .cidades .lista_footer{
+        columns: 2;
+    }
+    .container_principal .container_footer .cidades .lista_footer .item_lista >a{
+        font-size: 1rem;
+    }
+    .container_principal .container_footer .cidades > a {
+        margin-right: 20px;
+    }
+
+}
+@media (max-width: 768px){
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant,.container_info{
+        width:750px;
+    }
+    .container_pai .conatiner_header .navbar{
+        grid-template-columns: 90px 1fr 0px;
+    }
+    .container_pai .conatiner_header .navbar .btn1{
+        display: none;
+    }
+    .container_pai .conatiner_header .navbar .btn2{
+       width: 120px;
+       position: relative;
+       right: -80%;
+    }
+    .container_pai .container_inicio .inicio{
+        width: 60%;
+    }
+    .container_pai .container_inicio .inicio .big_phrase{
+        width: 70%;
+        font-size: 1.3em;
+    }
+    .container_pai .container_inicio .inicio .phrase{
+        width: 50%;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .container_pai .container_inicio .inicio form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container_pai .container_inicio .inicio .busca{
+        width: 100%;
+    }
+    .container_pai .container_inicio .inicio form > button{
+        width: 100%;
+        position: relative;
+        left: -13px;
+    }
+    .container_catalogo .tamanho_catalogo{
+        width:70%;
+    }
+    
+    .container_catalogo .tamanho_catalogo .container_hamburgue,
+    .container_catalogo .tamanho_catalogo .container_mercado{
+        width:70%;
+        margin-right: 20px;
+    }
+    .container_catalogo .tamanho_catalogo .container_hamburgue .foto_hamburgue {
+        position: relative;
+        left: 50px;
+        top: 59px;
+    }
+    .container_catalogo .tamanho_catalogo .container_hamburgue .foto_hamburgue > img{
+        width: 90%;
+    }
+    .container_catalogo .tamanho_catalogo .container_hamburgue .mais_opcao{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+
+    .container_catalogo .tamanho_catalogo .container_mercado .foto_mercado {
+        position: relative;
+        left: 50px;
+        top: 56px;
+    }
+    .container_catalogo .tamanho_catalogo .container_mercado .foto_mercado > img{
+        width: 90%;
+    }
+    .container_catalogo .tamanho_catalogo .container_mercado .mais_opcao2{
+        width: 100%;
+        position: relative;
+        bottom: 0;
+    }
+    .container_catalogo .tamanho_catalogo .catalogo p{
+        font-size: 1.3em;
+        width: 100%;
+    }
+
+    .container_catalogo .container_opcao{
+         display: grid;
+         grid-template-columns: repeat(4, 100px);
+         justify-content:center;
+    }
+    .container_catalogo .container_opcao .bebida figure{
+        margin-right: 75px;
+        height: auto;
+    }
+    .container_catalogo .container_opcao .bebida p{
+        margin-right: 75px;
+        font-size: 0.8em;
+    }
+    .container_catalogo .container_opcao .bebida figure > .beb{
+        width: 75px;
+        position: relative;
+        top: -25px;
+        left: 14px;
+    }
+
+    .container_catalogo .container_opcao .farmacia figure{
+        margin-right: 50px;
+        height: 27px;
+    }
+    .container_catalogo .container_opcao .farmacia p{
+        margin-right: 50px;
+        font-size: 0.8em;
+    }
+    .container_catalogo .container_opcao .farmacia figure > .beb{
+        width: 65px;
+        position: relative;
+        top: -28px;
+        left: 19px;
+    }
+
+    .container_catalogo .container_opcao .Express figure{
+        margin-right: 25px;
+        height: 27px;
+    }
+    .container_catalogo .container_opcao .Express p{
+        margin-right: 25px;
+        font-size: 0.8em;
+    }
+    .container_catalogo .container_opcao .Express figure > .beb{
+        width: 65px;
+        position: relative;
+        top: -36px;
+        left: 16px;
+    }
+
+    .container_catalogo .container_opcao .Pet_Shop figure{
+        position: relative;
+        top: 1px;
+    }
+    .container_catalogo .container_opcao .Pet_Shop p{
+        font-size: 0.8em;
+    }
+    .container_catalogo .container_opcao .Pet_Shop figure > .beb{
+        width: 75px;
+        position: relative;
+        top: -15px;
+        left: 14px;
+    }
+
+    .container_catalogo .container_opcao .organiza figure{
+        width: 100px;
+        height: 27px;
+    }
+    .container_catalogo .container_opcao .organiza figure > img {
+        width: 40%;
+    }
+
+    .container_principal .principal .carrosel{
+        width:100%;
+        margin-right: 0px;
+    }
+    .container_principal .principal .carrosel .carrosel_slide {
+        width: 180px;
+        margin: 0;
+    }
+    .container_principal .principal .carrosel .habibis {
+        margin-right: 70px;
+    }
+
+    /* prato dias */
+    .container_dia .carrosel_dia{
+        width: 100%;
+        
+    }
+    .container_dia .carrosel_dia .dia{
+        width:2000px;
+        height: 200px;  
+        transition: transform 1s ease-in-out;    
+    }
+    .container_principal .container_dia .carrosel_dia .dia .prato_dia img{
+        position: relative;
+        top: -100px;
+        width: 100%;
+        height: 100%;
+    }
+    .container_principal .container_dia .carrosel_dia .controles{
+        display: flex;
+        width: 100%;
+    }
+    .container_principal .container_dia .carrosel_dia .controles .left3{
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        background: #fff;
+        border: 1px solid #c4c4c4;
+        border-radius: 100%;
+        width: 39px;
+        height: 39px;
+        left: -15px;
+        transform: translateY(-115px) translateX(15px) rotate(0deg);
+    }
+    .container_principal .principal .controles .left3 svg{
+        width: 26%;
+        height: 37px;
+    }
+
+    .container_principal .container_dia .carrosel_dia .controles .rigth3{
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        top: -24px;
+        background: #fff;
+        border: 1px solid #c4c4c4;
+        border-radius: 100%;
+        z-index: 4;
+        width: 39px;
+        height: 39px;
+        transform: translateY(-95px) translateX(570px) rotate(0deg);
+    }
+    .container_principal .principal .controles .rigth3 svg{
+        width: 27%;
+        height: 37px;
+    }
+
+    .container_principal .container_carrosel .carrosel2{
+        grid-template-columns: repeat(20, 182.6px);
+        grid: 12px;
+    }
+    
+
+    .container_principal .container_info{
+        margin-left: 20px;
+    }
+
+    .container_principal .container_info .mulherBeijo figure > img{
+        top: -10px;
+        left: 67px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .titulo{
+        width: 118%;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .sub{
+        width: 88%;
+        top: 20px;
+        left: 90px;
+    }
+    .container_principal .container_info .casaMoeda figure > img{
+        top: -80px;
+        left: 67px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .titulo{
+        width: 118%;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .sub{
+        width: 88%;
+    }
+
+
+    .container_principal .container_banner{
+        display: flex;
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    .container_principal .container_banner h2{
+        width: 100%;
+        font-size: 1.5em;
+       text-align: center;
+    }
+    .container_principal .container_banner img{
+        width: 100%;
+    }
+    .container_principal .container_banner .info_banner{
+        width: 60%;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .container_principal .container_footer .redes_sociais{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .container_principal .container_footer .redes_sociais .redes h3{
+      margin-top: 50px;  
+    }
+
+    .container_principal .container_footer .container_final .agencia >p{
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    .container_principal .container_footer .container_final .termos >ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_principal .container_footer .cidades > a{
+        margin-right: 250px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 570px){
+    .container_inicio,.container_inicio,.container_catalogo,.container_principal,.best_restaurant,.container_info{
+        width:550px;
+    }
+    .container_pai .conatiner_header .navbar{
+        grid-template-columns: 90px 1fr 19px;
+    }
+    .container_pai .container_inicio .inicio .big_phrase{
+        width: 100%;
+        text-align: center;
+    }
+    .container_pai .container_inicio .inicio .phrase{
+        width: 60%;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .container_catalogo .tamanho_catalogo .container_hamburgue .foto_hamburgue {
+        position: relative;
+        left: 35px;
+        top: 73px;
+    }
+    .container_catalogo .tamanho_catalogo .container_mercado .foto_mercado {
+        position: relative;
+        left: 40px;
+        top: 73px;
+    }
+    .container_principal .principal .carrosel{
+        width:520px;
+        margin-right: 0px;
+    }
+    /* prato dias */
+    .container_dia .carrosel_dia{
+        width: 100%;   
+    }
+    .container_dia .carrosel_dia .dia{
+        width: 200%;
+        height: auto;
+    }
+    .container_principal .container_dia .carrosel_dia .dia{
+        grid-template-columns: 1fr;
+        width: 75%;
+        margin-top: 100px;
+    }
+
+    .container_principal .container_dia .carrosel_dia .controles .left3{
+        transform: translateY(-100px) translateX(-2315px) rotate(0deg);
+    }
+    .container_principal .container_dia .carrosel_dia .controles .rigth3{
+        transform: translateY(-135px) translateX(-400px) rotate(0deg);
+    }
+
+    .container_principal .container_carrosel .carrosel2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_principal .container_info .mulherBeijo figure > img{
+        top: -120px;
+        left: 67px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .titulo{
+        width:100%;
+        top: -70px;
+        left: 60px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info .sub{
+        width: 100%;
+        top: -60px;
+        left: 60px;
+    }
+    .container_principal .container_info .mulherBeijo .mais_info > a{
+        top: -50px;
+    }
+    .container_principal .container_info .casaMoeda figure > img{
+        top: -193px;
+        left: 58px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .titulo{
+        width: 118%;
+        left: 50px;
+        top: -70px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info .sub{
+        width: 88%;
+        left: 50px;
+        top: -70px;
+    }
+    .container_principal .container_info .casaMoeda .mais_info > a{
+        top: -50px;
+    }
+
+    .container_principal .container_footer .cidades .lista_footer .item_lista >a,
+    .container_principal .redes_sociais .footer_column .sociais .item_lista >a{
+        font-size: 0.7em;
+    }
+    .container_principal .container_footer .redes_sociais .redes h3{
+      margin-top: 50px;  
+    }
+
+    .container_principal .container_footer .container_final .agencia >p{
+        width: 70%;
+        font-size: 0.6em;
+        text-align: center;
+    }
+   .container_principal .container_footer .cidades > a {
+        margin-right: 137px;
+    }
+}
